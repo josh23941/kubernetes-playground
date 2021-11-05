@@ -15,3 +15,5 @@ spec:
       containers:
       - name: echo-server
         image: k8s.gcr.io/echoserver:1.4
+        ports:
+        - containerPort: 8080
